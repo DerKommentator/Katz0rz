@@ -34,8 +34,8 @@ namespace Katz0rz
 
             var data = context.Data.LoadFromTextFile<ImageData>(dataLocation, separatorChar: ',');
 
-            var pipeline = context.Transforms.Conversion.MapValueToKey("LabelKey", "Label") // TODO: warum muss das gemacht werden
-                .Append(context.Transforms.LoadImages("input", imageFolder: imagesFolder, nameof(ImageData.ImagePath))) // TODO: warum muss das gemacht werden
+            var pipeline = context.Transforms.Conversion.MapValueToKey("LabelKey", "Label")
+                .Append(context.Transforms.LoadImages("input", imageFolder: imagesFolder, nameof(ImageData.ImagePath)))
                 .Append(context.Transforms.ResizeImages("input", InceptionSettings.ImageWidth, InceptionSettings.ImageHeight, "input"))
                 .Append(context.Transforms.ExtractPixels("input", interleavePixelColors: InceptionSettings.ChannelsList, offsetImage: InceptionSettings.Mean))
                 .Append(context.Model.LoadTensorFlowModel(modelLocation)
