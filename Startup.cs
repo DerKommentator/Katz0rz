@@ -24,7 +24,7 @@ namespace Katz0rz
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseStatusCodePages();
             }
 
             if (env.IsProduction() || env.IsStaging() || env.IsEnvironment("Staging_2"))
