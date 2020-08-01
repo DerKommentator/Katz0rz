@@ -1,21 +1,3 @@
-﻿/*.flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.flex-item-2 {
-    width: 25%;
-    margin-top: 10%;
-}
-
-.button-upload {
-    margin-top: 5px;
-    text-align: center;
-}*/
-
-
-
 * {
     box-sizing: border-box;
 }
@@ -25,6 +7,7 @@ body,
 input {
     font-family: "Tomorrow";
     font-weight: 500;
+    heigth: 100%;
     /*overflow-y: hidden;*/
 }
 
@@ -36,7 +19,6 @@ body {
     color: #b3b5d2;
     background: #0f1020 url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" width="230" height="230">\a \a<g id="rectangles">\a<rect transform="translate(64, 64) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(64, 124) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(64, 184) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(64, 244) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(64, 304) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a \a<rect transform="translate(124, 64) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(124, 124) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(124, 184) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(124, 244) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(124, 304) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a \a<rect transform="translate(184, 64) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(184, 124) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(184, 184) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(184, 244) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(184, 304) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a \a<rect transform="translate(244, 64) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(244, 124) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(244, 184) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(244, 244) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a<rect transform="translate(244, 304) rotate(45)" width="3" height="3" fill="rgb(27,28,57)"/>\a \a<animate \a attributeType="CSS"\a     attributeName="opacity"\a     from="0"\a     to="1" \a     dur="1s"\a     values=".250; .250; .520;.250; .870; .550; .610; 1"\a     keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 0.9; 1"\a     repeatCount="indefinite"\a      />\a \a</g>\a<g id="lines">\a \a     <line y2="525" transform="translate(4)" stroke="rgb(27,28,57)" stroke-width="1"/>\a \a     <line x2="525" transform="translate(4, 4)" stroke="rgb(27,28,57)" stroke-width="1"/>\a     <animate \a attributeType="CSS"\a     attributeName="opacity"\a     from="0"\a     to="1" \a     dur="1s"\a     values=".450; .750; .320;.650; .870; .550; .610; 1"\a     keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 0.9; 1"\a     repeatCount="indefinite"\a      />\a  </g>\a     <rect transform="translate(4, 0) rotate(45)" width="6" height="6" fill="rgb(27,28,57)">\a     <animate \a     attributeType="CSS"\a         attributeName="opacity"\a         from="0"\a         to="1" \a         dur="1s"\a         values=".450; .750; .320;.650; .870; .550; .610; 1"\a         keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 0.9; 1"\a         repeatCount="indefinite"\a          />\a     </rect>\a \a     </svg>');
     height: 100%;
-    margin-top: 100px;
     overflow: -moz-scrollbars-none;
 }
 
@@ -67,6 +49,11 @@ img {
     height: auto;
     margin-left: -25px;
 }
+
+#app {
+    margin-top: 100px;
+}
+
 
 .margin-align {
     margin-left: -10px;
