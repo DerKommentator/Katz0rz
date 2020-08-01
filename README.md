@@ -1,4 +1,4 @@
-#Katz0rz
+# Katz0rz
 It is just a ASP.NET Core Application to use pretrained Tensorflow Models to predict Images. At the time it is the Inception Model
 
 - Using:
