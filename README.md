@@ -11,7 +11,7 @@ Right now it is configured to run locally.
 2. Comment out the lines of code in Katz0rz.csproj and Controller/HomeController.cs
 3. Install "libgdiplus"
     - ```Arch Linux > yay -S libgdiplus```
-    - ```Ubuntu / Debian > apt install libgdiplus```
+    - ```Ubuntu / Debian > sudo apt install libgdiplus```
 
 - Building the project on Linux:
 ```
