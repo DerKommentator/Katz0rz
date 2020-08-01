@@ -5,8 +5,8 @@
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
 	
-	<!--For Linux-->
-	<!--<RuntimeIdentifier>linux-64</RuntimeIdentifier>-->
+    <!--For Linux-->
+    <!--<RuntimeIdentifier>linux-x64</RuntimeIdentifier>-->
   </PropertyGroup>
 
   <ItemGroup>
