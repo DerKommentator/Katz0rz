@@ -90,9 +90,7 @@
                 },
 
                 uploadImage() {
-                    const URL = 'http://localhost:5000/api/upload';
                     var pictureFile = this.$refs.pictureInput.files[0];
-
 
                     if (this.imageValidation(pictureFile)) {
 
@@ -104,7 +102,7 @@
                                 'Content-Type': 'multipart/form-data'
                             }
                         }
-                        axios.post(URL, data, config)
+                        axios.post("/api/upload", data, config)
                             .then(function (response) {
                                 var jsonResponse = JSON.parse(response.request.response)
                                 vm.score = (Math.max(...jsonResponse.score) * 100).toFixed(2);
