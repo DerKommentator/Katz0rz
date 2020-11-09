@@ -1,6 +1,6 @@
 # Katz0rz (unfinished)
 
-Could not figure out how to use your own traine model.
+*Could not figure out how to use your own trained model.*
 
 It is just a ASP.NET Core Application to use pretrained Tensorflow Models to predict Images. At the time it is the Inception Model.
 Right now it is configured to run locally.
