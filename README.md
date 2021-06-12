@@ -22,3 +22,12 @@ Right now it is configured to run locally.
 > dotnet build
 > dotnet run
 ```
+- - -
+
+## Cat Recognition
+
+![Cat](docs/cat.png)
+
+## Dog Recognition
+
+![Dog](docs/dog.png)
